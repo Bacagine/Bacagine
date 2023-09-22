@@ -1,6 +1,6 @@
 # Bacagine
 
-I'm a 10th semester student studying Systems Analysis and Development at FATEC.
+I'm a 6th semester student studying Systems Analysis and Development at FATEC.
 
 C/C++ Developer.
 
