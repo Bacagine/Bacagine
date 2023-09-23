@@ -45,7 +45,7 @@ typedef struct Person
   bool bLive;
 } Person, *PPerson
 
-const double gkbPI = 3.14; 
+const double gkdPI = 3.14; 
 
 ...
 
