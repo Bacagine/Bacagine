@@ -35,7 +35,7 @@ See below a table with the type of indicators for each type of data.
 ### Hungarian Notation Usage Example
 ```c
 
-typedef struct Person
+typedef struct STRUCT_PERSON
 {
   int iID;
   char szName[64];
@@ -43,7 +43,7 @@ typedef struct Person
   float fHeight;
   double dSalary;
   bool bLive;
-} Person, *PPerson
+} STRUCT_PERSON, *PSTRUCT_PERSON
 
 const double gkdPI = 3.14; 
 
@@ -51,7 +51,7 @@ const double gkdPI = 3.14;
 
 int main(int argc, char **argv)
 {
-  Person * pstPerson = (PPerson) malloc(sizeof(Person);
+  PSTRUCT_PERSON pstPerson = (PSTRUCT_PERSON) malloc(sizeof(STRUCT_PERSON);
   
   ...
   
