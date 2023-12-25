@@ -22,7 +22,7 @@ See below a table with the type of indicators for each type of data.
 | p            | Pointer      |
 | v            | Void         |
 | b            | Boolean      |
-| c            | Char         |
+| ch           | Char         |
 | i            | Integer      |
 | f            | Float        |
 | d            | Double       |
