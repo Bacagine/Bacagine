@@ -28,15 +28,15 @@ See below a table with the type of indicators for each type of data.
 | d            | Double       |
 | sz           | String       |
 | st           | Structure    |
-| u            | Union        |
+| un           | Union        |
 | e            | Enum         |
 | fp           | File Pointer |
+| dp           | Directory Pointer |
 
 ### Hungarian Notation Usage Example
 ```c
 
-typedef struct STRUCT_PERSON
-{
+typedef struct STRUCT_PERSON {
   int iID;
   char szName[64];
   char cSex;
@@ -49,8 +49,7 @@ const double gkdPI = 3.14;
 
 ...
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
   PSTRUCT_PERSON pstPerson = (PSTRUCT_PERSON) malloc(sizeof(STRUCT_PERSON);
   
   ...
