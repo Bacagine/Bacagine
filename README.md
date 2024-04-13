@@ -39,7 +39,7 @@ See below a table with the type of indicators for each type of data.
 typedef struct STRUCT_PERSON {
   int iID;
   char szName[64];
-  char cSex;
+  char chSex;
   float fHeight;
   double dSalary;
   bool bLive;
