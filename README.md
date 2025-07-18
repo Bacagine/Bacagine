@@ -2,7 +2,7 @@ I'm a technologist in Systems Analysis and Development at FATEC Carapicuíba.
 
 C/C++ Developer.
 
-Linux User (Debian)
+Linux User (Arch Linux)
 
 See bellow a brief explanation of the coding method I use in my programs
 ## Hungarian Notation
@@ -26,7 +26,6 @@ See below a table with the type of indicators for each type of data.
 | un           | Union        |
 | e            | Enum         |
 | fp           | File Pointer |
-| dp           | Directory Pointer |
 | pfn          | Function Pointer |
 ### Hungarian Notation Usage Example
 ```c
